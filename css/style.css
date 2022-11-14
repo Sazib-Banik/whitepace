@@ -1,0 +1,42 @@
+/* 
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #212529;
+}
+/* header_part start */
+#header_part{
+    background-color: #043873;
+    padding: 16px 0;
+}
+
+.menu .nav-item .nav-link{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    padding: 16px;
+}
+.common_btn{
+    padding: 16px 24px !important;
+    background-color: #4F9CF9;
+    border-radius: 8px;
+    margin-left: 24px;
+}
+.login_btn{
+    background-color: #FFE492;
+    color: #043873 !important;
+    margin-left: 35px;
+}
+
+/* header_part end */
