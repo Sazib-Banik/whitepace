@@ -312,3 +312,13 @@ body {
     margin-bottom: 0;
   }
 }
+/* data_part start */
+#data_part{
+  padding: 140px 0;
+}
+
+@media (max-width: 991px) {
+  #data_part{
+    padding: 80px 0;
+  }
+}
