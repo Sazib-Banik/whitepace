@@ -288,3 +288,27 @@ body {
     margin-bottom: 60px;
   }
 }
+/* work_part start */
+#work_part{
+  background-color: #043873;
+  padding: 140px 0;
+}
+#work_part .theme_content h2{
+  color: #ffffff;
+}
+#work_part .theme_content p{
+  color: #ffffff;
+}
+@media (max-width: 991px) {
+  #work_part {
+    padding: 80px 0;
+  }
+  #work_part .theme_content h2,
+  #work_part .theme_content p,
+  #work_part .theme_content a.common_btn{
+    text-align: left;
+  }
+  #work_part .theme_content{
+    margin-bottom: 0;
+  }
+}
