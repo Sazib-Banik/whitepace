@@ -322,3 +322,22 @@ body {
     padding: 80px 0;
   }
 }
+/* sponsors_part start */
+
+#sponsors_part{
+  padding: 140px 0;
+}
+#sponsors_part .theme_content{
+  margin-bottom: 100px;
+}
+.sponsors_box{
+  padding: 0px 35px;
+}
+@media (max-width: 991px) {
+  #sponsors_part{
+    padding: 80px 0;
+  }
+  .sponsors_box{
+    margin-bottom: 60px;
+  }
+}
