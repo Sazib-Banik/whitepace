@@ -120,6 +120,7 @@ body {
 #hero_part {
   padding: 140px 0;
 }
+#app_part,
 #hero_part {
   background-image: url(../image/Hero-section.png);
   background-position: center;
@@ -339,5 +340,26 @@ body {
   }
   .sponsors_box{
     margin-bottom: 60px;
+  }
+}
+/* app_part start */
+#app_part{
+  padding: 140px 0;
+}
+#app_part .theme_content{
+  padding-left: 30px;
+}
+#app_part .theme_content h2,
+#app_part .theme_content p{
+  color: #ffffff;
+}
+@media (max-width: 991px) {
+  #app_part{
+    padding: 80px 0;
+  }
+  #app_part .theme_content{
+    padding-left: 0;
+    margin-top: 60px;
+    text-align: center;
   }
 }
