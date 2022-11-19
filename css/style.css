@@ -440,3 +440,14 @@ body {
 #trial_part a{
   margin: 10px 20px;
 }
+@media (max-width: 991px) {
+  #trial_part {
+    padding: 80px 0;
+  }
+  #trial_part .header_text{
+    font-size: 36px;
+  }
+  #trial_part p{
+    font-size: 18px;
+  }
+}
