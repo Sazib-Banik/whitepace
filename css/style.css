@@ -205,7 +205,7 @@ body {
 #pricing_part {
   padding: 140px 0;
 }
-#pricing_part .theme_content{
+#pricing_part .theme_content {
   margin-bottom: 100px;
 }
 .pricing_box {
@@ -238,12 +238,12 @@ body {
   margin-bottom: 35px;
   padding: 0;
 }
-.pricing_box ul li{
+.pricing_box ul li {
   position: relative;
   list-style: none;
   margin-left: 30px;
 }
-.pricing_box ul li::before{
+.pricing_box ul li::before {
   position: absolute;
   content: "";
   top: 50%;
@@ -253,7 +253,7 @@ body {
   width: 20px;
   height: 20px;
 }
-.price_btn{
+.price_btn {
   background-color: #fff;
   border: 1px solid #ffe492;
   color: #212529;
@@ -261,20 +261,20 @@ body {
   border-radius: 8px;
   transition: 0.4s;
 }
-.pricing_box:hover{
+.pricing_box:hover {
   padding: 80px 44px;
   background-color: #043873;
   color: #ffffff;
 }
-.pricing_box:hover ul li::before{
+.pricing_box:hover ul li::before {
   background-image: url(../image/hover-list-Icon.png);
 }
-.pricing_box:hover .price_btn{
+.pricing_box:hover .price_btn {
   background-color: #4f9cf9;
   color: #ffffff;
   border: none;
 }
-.pricing_box:hover h2{
+.pricing_box:hover h2 {
   color: #ffe492;
 }
 
@@ -282,22 +282,22 @@ body {
   #pricing_part {
     padding: 80px 0;
   }
-  .pricing_box{
+  .pricing_box {
     margin-top: 20px;
   }
-  #pricing_part .theme_content{
+  #pricing_part .theme_content {
     margin-bottom: 60px;
   }
 }
 /* work_part start */
-#work_part{
+#work_part {
   background-color: #043873;
   padding: 140px 0;
 }
-#work_part .theme_content h2{
+#work_part .theme_content h2 {
   color: #ffffff;
 }
-#work_part .theme_content p{
+#work_part .theme_content p {
   color: #ffffff;
 }
 @media (max-width: 991px) {
@@ -306,60 +306,137 @@ body {
   }
   #work_part .theme_content h2,
   #work_part .theme_content p,
-  #work_part .theme_content a.common_btn{
+  #work_part .theme_content a.common_btn {
     text-align: left;
   }
-  #work_part .theme_content{
+  #work_part .theme_content {
     margin-bottom: 0;
   }
 }
 /* data_part start */
-#data_part{
+#data_part {
   padding: 140px 0;
 }
 
 @media (max-width: 991px) {
-  #data_part{
+  #data_part {
     padding: 80px 0;
   }
 }
 /* sponsors_part start */
 
-#sponsors_part{
+#sponsors_part {
   padding: 140px 0;
 }
-#sponsors_part .theme_content{
+#sponsors_part .theme_content {
   margin-bottom: 100px;
 }
-.sponsors_box{
+.sponsors_box {
   padding: 0px 35px;
 }
 @media (max-width: 991px) {
-  #sponsors_part{
+  #sponsors_part {
     padding: 80px 0;
   }
-  .sponsors_box{
+  .sponsors_box {
     margin-bottom: 60px;
   }
 }
 /* app_part start */
-#app_part{
+#app_part {
   padding: 140px 0;
 }
-#app_part .theme_content{
+#app_part .theme_content {
   padding-left: 30px;
 }
 #app_part .theme_content h2,
-#app_part .theme_content p{
+#app_part .theme_content p {
   color: #ffffff;
 }
 @media (max-width: 991px) {
-  #app_part{
+  #app_part {
     padding: 80px 0;
   }
-  #app_part .theme_content{
+  #app_part .theme_content {
     padding-left: 0;
     margin-top: 60px;
     text-align: center;
   }
+}
+/* testimonial_part start */
+#testimonial_part {
+  padding: 140px 0;
+}
+.owl-item.active {
+  color: #ffffff;
+}
+.owl-item.active i {
+  color: #043873;
+}
+.testimonial_item {
+  padding: 60px 20px;
+}
+.testimonial_item i {
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.testimonial_item hr {
+  color: #212529;
+}
+.testi_content {
+  display: flex;
+  margin-top: 40px;
+}
+.testi_img {
+  width: 95px;
+  height: 95px;
+  margin-right: 25px;
+}
+.owl-item.active h5 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #212529;
+}
+.owl-item.active p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #212529;
+  margin-bottom: 30px;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 15px;
+  height: 15px;
+  margin: 5px 7px;
+  background: #4F9CF9;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 0.2s ease;
+  border-radius: 30px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #043873;
+}
+#testimonial_part .theme_content {
+  margin-bottom: 60px;
+}
+/* trial_part start */
+#trial_part{
+  background-color: #043873;
+  padding: 140px 0;
+}
+#trial_part .header_text{
+  font-size: 65px;
+}
+#trial_part p{
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+.link{
+  margin-top: 35px;
+  margin-bottom: 30px !important;
+}
+#trial_part a{
+  margin: 10px 20px;
 }
